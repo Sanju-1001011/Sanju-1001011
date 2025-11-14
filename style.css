@@ -1,0 +1,239 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #2874f0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+header input {
+  padding: 6px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+nav a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  display: none;
+  padding: 20px;
+}
+
+.active {
+  display: block;
+}
+
+.category-buttons button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  background: #2874f0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-buttons button:hover {
+  background: #1250b8;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.product h4 {
+  margin: 10px 0 5px;
+}
+
+.product p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.product button {
+  background: #2874f0;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background: #1250b8;
+}
+
+/* Wishlist Section */
+.wishlist-product {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px auto;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.wishlist-product img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.buy-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: darkgreen;
+}
+
+/* About Section */
+.user-info {
+  margin-top: 20px;
+}
+
+.user-info input {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  width: 250px;
+}
+
+.user-info button {
+  background: #2874f0;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #2874f0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* === LOGIN PAGE STYLING === */
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f2f2f2;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #2874f0;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-box button:hover {
+  background: #1250b8;
+}
+
+.register-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.register-link a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
